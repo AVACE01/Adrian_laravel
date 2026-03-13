@@ -1,0 +1,1261 @@
+[33ma7730986[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31mgithub/master[m[33m)[m Implementacion del envio de correo en proyecto
+[33mc4535876[m Primer commit
+[33m82a83a69[m[33m ([m[1;33mtag: [m[1;33mv11.3.2[m[33m)[m Fixes pail timing out after an hour (#6473)
+[33m1c880c36[m Update CHANGELOG
+[33mf9f5e3c3[m[33m ([m[1;33mtag: [m[1;33mv11.3.1[m[33m)[m wip
+[33mea60b55f[m Update CHANGELOG
+[33m6c3d2fb4[m[33m ([m[1;33mtag: [m[1;33mv11.3.0[m[33m)[m adjust colors
+[33m2f17c976[m remove retries
+[33m0973f0a3[m add restart tries
+[33mb378ce94[m Add Tailwind, "composer run dev" (#6463)
+[33ma61a6361[m Update CHANGELOG
+[33m49bceac4[m[33m ([m[1;33mtag: [m[1;33mv11.2.1[m[33m)[m Update welcome.blade.php to add missing alt tag (#6462)
+[33mc9c8fb9e[m Refactor User model to use HasFactory trait and add type hint for UserFactory (#6453)
+[33m6e71b994[m Update composer.json (#6454)
+[33me0421a4e[m Update CHANGELOG
+[33mbab16982[m[33m ([m[1;33mtag: [m[1;33mv11.2.0[m[33m)[m private files (#6450)
+[33m168e6859[m Update .gitignore with Zed Editor (#6449)
+[33mf0a12c66[m Update CHANGELOG
+[33mc12fd185[m[33m ([m[1;33mtag: [m[1;33mv11.1.5[m[33m)[m Update package.json (#6440)
+[33m6ebd9fed[m Update CHANGELOG
+[33m2897a49c[m[33m ([m[1;33mtag: [m[1;33mv11.1.4[m[33m)[m add sqlite options
+[33m4ef5e2f8[m Update CHANGELOG
+[33m69917ece[m[33m ([m[1;33mtag: [m[1;33mv11.1.3[m[33m)[m [11.x] Comment maintenance store (#6429)
+[33m3b239422[m Update CHANGELOG
+[33m47fb90a8[m[33m ([m[1;33mtag: [m[1;33mv11.1.2[m[33m)[m Apply fixes from StyleCI
+[33m3fd8dd85[m Expose lock table name (#6423)
+[33m3b3f9f13[m Update CHANGELOG
+[33mad38e564[m[33m ([m[1;33mtag: [m[1;33mv11.1.1[m[33m)[m Format the first letter of `drivers` to lowercase (#6413)
+[33mb6d55576[m Update CHANGELOG
+[33m5d86ab4b[m[33m ([m[1;33mtag: [m[1;33mv11.1.0[m[33m)[m Removes `spatie/laravel-ignition` (#6406)
+[33m76510a70[m Update CHANGELOG
+[33mb651fb10[m[33m ([m[1;33mtag: [m[1;33mv11.0.9[m[33m)[m updated mail config (#6402)
+[33m564e0438[m Update CHANGELOG
+[33m043a454a[m[33m ([m[1;33mtag: [m[1;33mv11.0.8[m[33m)[m Add .phpactor.json to .gitignore (#6400)
+[33mb3df041d[m Update CHANGELOG
+[33m4b158871[m[33m ([m[1;33mtag: [m[1;33mv11.0.7[m[33m)[m add resend
+[33me7cc5778[m resend
+[33mcf0b40b8[m Remove obsolete driver option (#6395)
+[33m0259455a[m Update CHANGELOG
+[33m3cb22426[m[33m ([m[1;33mtag: [m[1;33mv11.0.6[m[33m)[m Add missing roundrobin transport driver config (#6392)
+[33m708fdb1a[m Fix PHPUnit constraint (#6389)
+[33m9e2d6f64[m Update CHANGELOG
+[33m58baff2c[m[33m ([m[1;33mtag: [m[1;33mv11.0.5[m[33m)[m [11.x] Use PHPUnit v11 (#6385)
+[33m93f660c1[m Update CHANGELOG
+[33m441845d8[m[33m ([m[1;33mtag: [m[1;33mv11.0.4[m[33m)[m [11.x] Fix on hover animation and ring (#6376)
+[33m6f5d9b88[m Fix retry_after to be an integer (#6377)
+[33meb8f9dc2[m [11.x] Removed useless null parameter for env helper (#6373)
+[33m51c4166b[m [11.x] Removed useless null parameter for env helper (cache.php) (#6374)
+[33ma6ce688a[m Update CHANGELOG
+[33m087543a4[m[33m ([m[1;33mtag: [m[1;33mv11.0.3[m[33m)[m Revert collation change (#6372)
+[33m881f890b[m Update CHANGELOG
+[33m075c38c9[m[33m ([m[1;33mtag: [m[1;33mv11.0.2[m[33m)[m Update CHANGELOG
+[33m79969c99[m change mariadb default
+[33mdd0bf5c5[m Update welcome.blade.php (#6363)
+[33me7aa6346[m Remove branch alias from composer.json (#6366)
+[33m6ea57d76[m[33m ([m[1;33mtag: [m[1;33mv11.0.1[m[33m)[m [11.x] Fixes SQLite driver missing (#6361)
+[33mc1fc3a0e[m[33m ([m[1;33mtag: [m[1;33mv11.0.0[m[33m)[m Adjusts minimum stability
+[33mec8b7403[m Prepare 11.x branch
+[33me2875232[m Add Laravel Herd (#6356)
+[33m512e8664[m Merge branch '10.x'
+[33m1ee78493[m Add DB_CHARSET + DB_COLLATION (#6355)
+[33mdd677709[m Removes notes
+[33m90a0a16e[m Recompile styles (#6354)
+[33mf76b09d2[m Implement L11 welcome page design (#6335)
+[33m9ec283d2[m Uses `env` on postmark email commented code as docs (#6350)
+[33mf12dd8de[m Removes broadcasting (#6351)
+[33mf437205a[m slim configuration
+[33m96508d43[m wip
+[33m27907e01[m update env example file
+[33m8172528d[m use empty cache prefix in env example
+[33m151eac5c[m remove comments
+[33mbf1c2b7a[m [11.x] Adds Reverb config (#6341)
+[33md2b3ab24[m Moves `withProviders` to configure internally (#6340)
+[33m65cfa718[m Update CHANGELOG
+[33m059f45ab[m Merge branch '10.x'
+[33md3287461[m[33m ([m[1;33mtag: [m[1;33mv10.3.3[m[33m)[m wip
+[33mdc4e89b6[m add bcrypt rounds to env example file
+[33m20261731[m Update README.md
+[33m7df47a26[m simple health route
+[33m86c7c863[m slim bootstrap file
+[33me1d396c6[m add note to provider file
+[33mcde09e63[m [11.x] Adjusts default mail environment variables (#6325)
+[33ma186ebf4[m wip
+[33m1f7e8807[m Requires Guzzle on `laravel/framework` (#6324)
+[33m29542470[m Fixes `APP_MAINTENANCE_DRIVER` value for testing
+[33m3898059e[m explicit directory
+[33m5955d2e4[m revert quietness
+[33m27a4111f[m run database migrations quietly on create project
+[33me23c0c1b[m SQLite for local dev (#6322)
+[33mb1502f3c[m slim comments
+[33m1ad4708d[m Merge branch '10.x'
+[33mdd60315e[m [11.x] Simplify PHP comments (#6316)
+[33m6292958a[m [11.x] Removed unused using in public/index.php (#6315)
+[33mb726807a[m Uses Tinker's stable branch
+[33m2254e8e3[m Update CHANGELOG
+[33mf3b9740d[m Move spatie/laravel-ignition to dev dependencies
+[33m1a4d1dc8[m[33m ([m[1;33mtag: [m[1;33mv10.3.2[m[33m)[m Update Axios to latest version (#6313)
+[33m14bc24d2[m Adds Laravel Ignition (#6312)
+[33m2529041f[m Merge branch '10.x'
+[33m13a81bf9[m Removes `CreatesApplication` (#6310)
+[33m1674895c[m [11.x] Bumps versions on `composer.json` (#6311)
+[33m6f6cfb02[m Update Axios to latest version (#6306)
+[33mb191f9d0[m Merge branch '10.x'
+[33m0c8372a2[m Reverts `assertOk` change (#6303)
+[33m705f97c5[m Update CHANGELOG
+[33m9e3fbaa5[m Uses `CACHE_STORE` instead of `CACHE_DRIVER` (#6302)
+[33m890835b7[m[33m ([m[1;33mtag: [m[1;33mv10.3.1[m[33m)[m [10.x] Add roundrobin transport driver config (#6301)
+[33m07fdfbc8[m Update CHANGELOG
+[33m647c9bc2[m[33m ([m[1;33mtag: [m[1;33mv10.3.0[m[33m)[m Update version requirement (#6292)
+[33m5d93ebdb[m Revert "Fixes tests failing due database not available (#6297)" (#6299)
+[33m0071cc80[m update drivers
+[33me15fbbe5[m Fixes tests failing due database not available (#6297)
+[33m39532486[m wip
+[33m3f1426a5[m Revert "Rename migration tables (#6295)" (#6298)
+[33mb86e53bc[m Rename migration tables (#6295)
+[33mdb67662c[m update maintenance defaults
+[33mfeded74d[m wip
+[33m4705136d[m disable pulse for testing
+[33m3142d3fe[m Use `assertOk()` instead of `assertStatus(200)` (#6287)
+[33me57d15ac[m Update CHANGELOG
+[33mb7ae61bb[m fix conflicts
+[33md6a2d8b8[m[33m ([m[1;33mtag: [m[1;33mv10.2.10[m[33m)[m [10.x] Add partitioned cookie config key (#6257)
+[33m428a1900[m [11.x] Slim skeleton (#6188)
+[33m645e13d6[m fix conflicts
+[33m73cf5bc5[m [10.x] Fixes missing property description (#6275)
+[33m4d3c3a13[m Update CHANGELOG
+[33ma546b52b[m[33m ([m[1;33mtag: [m[1;33mv10.2.9[m[33m)[m Update package.json (#6272)
+[33mde6d4f58[m fixing conflicts
+[33m40a7605d[m Update CHANGELOG
+[33m024c86a2[m[33m ([m[1;33mtag: [m[1;33mv10.2.8[m[33m)[m Revert "Let database handle default collation (#6241)" (#6266)
+[33mc7098938[m Update CHANGELOG
+[33mad1c5fe4[m[33m ([m[1;33mtag: [m[1;33mv10.2.7[m[33m)[m Redis maintenance store config example contains an excess space (#6264)
+[33m21ad6d69[m Verify algo (#6258)
+[33mb0b29e12[m [10.x] Update minimum `laravel/sanctum` (#6261)
+[33m424c99c5[m Set new Sail constraint (#6260)
+[33m7fe97a16[m [10.x] Update fixture hash to match testing cost (#6259)
+[33m036ea83d[m Uses `actions/checkout@v4`
+[33m96fb350f[m Re-adds tinker (#6254)
+[33m645ab903[m Fixes build of `dev-master` (#6252)
+[33m25070a3f[m Fix typo in the comment for token prefix (sanctum config) (#6248)
+[33m960ea7b3[m Update README.md
+[33m78243dda[m Update README.md
+[33m8e5f0e5d[m Use 12 bcrypt rounds for password in UserFactory (#6247)
+[33m540cec03[m Increase bcrypt rounds to 12 (#6245)
+[33m88695a7c[m Add PHP 8.3 to Tests Matrix (#6244)
+[33m74c5a01b[m Let database handle default collation (#6241)
+[33m96d3ecf5[m Revert "Fix incorrect collation for MySQL 8 (#6239)" (#6240)
+[33mc088b3b7[m Fix incorrect collation for MySQL 8 (#6239)
+[33m8dc6ced5[m Merge branch '10.x'
+[33mbfead27a[m [10.x] Update sanctum config file (#6234)
+[33m17f94e30[m fix conflicts
+[33m32ecad53[m Postmark mailer configuraiton update. (#6228)
+[33m56c6f6b6[m Update CHANGELOG
+[33m36047268[m[33m ([m[1;33mtag: [m[1;33mv10.2.6[m[33m)[m Bump `laravel-vite-plugin` to latest version (#6224)
+[33m04a8e855[m Update CHANGELOG
+[33mf419821b[m[33m ([m[1;33mtag: [m[1;33mv10.2.5[m[33m)[m shorten directories
+[33m6c1a39b5[m Omit default values for suffix in phpunit.xml (#6210)
+[33me96d21dd[m [11.x]: Use `ses-v2` as default `ses` mail transport (#6205)
+[33m3ac233ab[m Allow accessing APP_NAME in Vite (#6204)
+[33mf3177223[m Update CHANGELOG
+[33m84991f23[m[33m ([m[1;33mtag: [m[1;33mv10.2.4[m[33m)[m Update Kernel.php (#6193)
+[33ma410a5af[m Update CHANGELOG
+[33ma5fddf7b[m fix conflicts
+[33mb1011d16[m Laravel v11 compatible versions
+[33m64173fbe[m dev stability
+[33m64f3d149[m Prepare v11
+[33m85203d68[m[33m ([m[1;33mtag: [m[1;33mv10.2.3[m[33m)[m update description
+[33m812bfb69[m Update CHANGELOG
+[33ma6bfbc7f[m[33m ([m[1;33mtag: [m[1;33mv10.2.2[m[33m)[m add lock path
+[33mfb8e9cee[m Update CHANGELOG
+[33m953eae29[m[33m ([m[1;33mtag: [m[1;33mv10.2.1[m[33m)[m Bring back cluster config option, as required by pusher-js v8.0. (#6174)
+[33m7e0a2db2[m Add hashed cast to user password (#6171)
+[33m90acdfe9[m Update CHANGELOG
+[33m150e379c[m[33m ([m[1;33mtag: [m[1;33mv10.2.0[m[33m)[m Update mail.php (#6170)
+[33md3b2eada[m Migrate to modules (#6090)
+[33md14bdeeb[m Update welcome.blade.php (#6163)
+[33m5070934f[m Update CHANGELOG
+[33mec38e3bf[m[33m ([m[1;33mtag: [m[1;33mv10.1.1[m[33m)[m Fix laravel/framework constraints for Default Service Providers (#6160)
+[33m05a41f8a[m Update CHANGELOG
+[33mbadcf92f[m Update CHANGELOG
+[33mebf9d30b[m[33m ([m[1;33mtag: [m[1;33mv10.1.0[m[33m)[m [10.x] Minor skeleton slimming (#6159)
+[33m64685e6f[m[33m ([m[1;33mtag: [m[1;33mv10.0.7[m[33m)[m Adds `phpunit/phpunit@10.1` support (#6155)
+[33m7cc6699c[m clean up comment
+[33ma25f4059[m Update CHANGELOG
+[33m0bcd012d[m[33m ([m[1;33mtag: [m[1;33mv10.0.6[m[33m)[m Add job batching options to Queue configuration file (#6149)
+[33m9184b212[m Update CHANGELOG
+[33m9ae75b58[m[33m ([m[1;33mtag: [m[1;33mv10.0.5[m[33m)[m [10.x] Add replace_placeholders to log channels (#6139)
+[33md39fb35b[m Update CHANGELOG
+[33m22df611a[m[33m ([m[1;33mtag: [m[1;33mv10.0.4[m[33m)[m Specify facility in the syslog driver config (#6130)
+[33ma337b99d[m Fix typo (#6128)
+[33m9507bf2b[m Update CHANGELOG
+[33m37ab32cf[m[33m ([m[1;33mtag: [m[1;33mv10.0.3[m[33m)[m Update CHANGELOG.md
+[33m63202ceb[m Update .gitignore (#6123)
+[33me121424f[m Reverts #6089 (#6122)
+[33m330995f6[m Remove redundant `@return` docblock in UserFactory (#6119)
+[33m589b36d0[m Laravel v11 compatible versions
+[33m3c2609ac[m Merge branch '10.x'
+[33m1bb530c6[m Revert "add ses-v2 mailer in config (#6112)" (#6115)
+[33ma1ef0094[m add ses-v2 mailer in config (#6112)
+[33mc909b037[m Missing comma (#6111)
+[33m4ca1a394[m Update CHANGELOG
+[33m3986d4c5[m[33m ([m[1;33mtag: [m[1;33mv10.0.2[m[33m)[m remove unneeded call
+[33mbdd61ef5[m Update CHANGELOG
+[33mc5744721[m Merge branch '10.x'
+[33mad279a61[m[33m ([m[1;33mtag: [m[1;33mv10.0.1[m[33m)[m Allow php-http/discovery as a composer plugin (#6106)
+[33m36202b20[m Add PHPUnit result cache to gitignore (#6105)
+[33m9c4cef10[m note ses-v2
+[33md90ea8a7[m Merge branch '10.x'
+[33me4abd484[m Remove branch-alias from composer.json (#6103)
+[33mf32a9d64[m dev stability
+[33m1df3be48[m Prepare v11
+[33m674fbcce[m Update CHANGELOG.md
+[33macd0f29a[m[33m ([m[1;33mtag: [m[1;33mv10.0.0[m[33m)[m update min stability
+[33mf48a46bf[m Merge branch '9.x' into 10.x
+[33mf19397bc[m Update package.json (#6100)
+[33m4e957b29[m Tweaks Laravel description (#6099)
+[33m6f4cea41[m remove lodash (#6095)
+[33m5b60b604[m[33m ([m[1;31morigin/9.x[m[33m)[m [9.x] Adds clarification to throttle auth setting (#6096)
+[33m61a14cdc[m remove shop for now while store being redone
+[33md7365155[m [10.x] A fresh welcome page (#6093)
+[33m18c6b2b3[m update change log
+[33m135e35ba[m fix conflicts
+[33m842f511e[m remove lang directory by default
+[33m99b1d973[m [10.x] Adds PHPUnit 10 support (#6052)
+[33m5eb99fca[m sets ASSET_URL to use / as the default value (#6089)
+[33mc0b60c0a[m Update CHANGELOG
+[33m6092ff46[m[33m ([m[1;33mtag: [m[1;33mv9.5.2[m[33m)[m update example
+[33me0a5b0ef[m document new options
+[33ma28ad296[m rename password reset tokens table in skeleton
+[33medcbe6de[m rename property for clarity
+[33mde868f0f[m Use nullable typing (#6084)
+[33mf62d260c[m remove dispatches job trait
+[33mcfe893db[m adjust wording
+[33md0c8f494[m Merge branch '9.x'
+[33ma55085b8[m Uses Laravel Ignition `v2.x` (#6079)
+[33m9c26e612[m Adds "missing" validation rule translations (#6078)
+[33m6b7fc509[m Update CHANGELOG
+[33m1d0dad93[m Use dev stability for master
+[33m875e6f17[m Merge branch '9.x'
+[33m5c7cc8ee[m[33m ([m[1;33mtag: [m[1;33mv9.5.1[m[33m)[m Keeps `"prefer-stable": true`
+[33m75d22431[m Removes redundant composer setting
+[33mc1092ec0[m use min stability stable
+[33maf241e15[m Update composer.json
+[33m8f5346e3[m Merge branch '9.x'
+[33m28894568[m Update composer.json
+[33mb4573d5c[m Update CHANGELOG
+[33m55af5469[m [10.x] Uses PHP Native Type Declarations 🐘 (#6010)
+[33m091aa7d8[m[33m ([m[1;33mtag: [m[1;33mv9.5.0[m[33m)[m switch email to a primary key (#6064)
+[33m21b826f3[m Updated git configuration to use LF line endings by default (#6061)
+[33mca01443b[m [9.x] Support pusher-js v8.0 (#6059)
+[33m1fd1e03f[m Update to Heroicons v2 (#6051)
+[33mf1f20728[m Updated tests badge (#6050)
+[33m42f58578[m Update CHANGELOG
+[33m39f4830e[m[33m ([m[1;33mtag: [m[1;33mv9.4.1[m[33m)[m add decimal translation
+[33m52b741c7[m Update CHANGELOG
+[33m1b0d33cd[m[33m ([m[1;33mtag: [m[1;33mv9.4.0[m[33m)[m Update package.json
+[33mbc420da0[m vite 4 support (#6043)
+[33md412d5ba[m Add ulid and ascii validation message (#6046)
+[33m9fb954fb[m Merge branch '9.x'
+[33m88b2d177[m Create issues.yml
+[33m71c77805[m Update CHANGELOG
+[33m8a8730c9[m[33m ([m[1;33mtag: [m[1;33mv9.3.12[m[33m)[m bump vite plugin (#6038)
+[33m040d5488[m Update CHANGELOG
+[33m21964ec8[m[33m ([m[1;33mtag: [m[1;33mv9.3.11[m[33m)[m validation rules sorting consistency (#6031)
+[33m69e2cce9[m Update validation.php (#6029)
+[33m3762b417[m Adds lowercase validation rule translation (#6028)
+[33m7b782326[m Update CHANGELOG
+[33md938bfd0[m[33m ([m[1;33mtag: [m[1;33mv9.3.10[m[33m)[m Changing .env to make Pusher work without editing the commented out part in the bootstrap.js (#6021)
+[33m48e38559[m Update CHANGELOG
+[33m720f7572[m Remove 8.0 build
+[33m53e2ce5b[m Merge branch '9.x'
+[33m586b9e7b[m[33m ([m[1;33mtag: [m[1;33mv9.3.9[m[33m)[m Add /.fleet directory to .gitignore (#6011)
+[33m1f27a224[m Sort EditorConfig rules (#6012)
+[33m5daa02c7[m Shorten pusher host config (#6009)
+[33m5fb72c0d[m Upgrade axios to v1.x (#6008)
+[33m7f62c145[m ignore .env.production (#6004)
+[33m5138bc36[m update colours (#6002)
+[33m2f975d75[m Update tests.yml (#6000)
+[33mb47c4bc2[m PHP 8.2 build (#5999)
+[33me87bfd60[m Update tests.yml
+[33mff696f4a[m Update CHANGELOG
+[33m9725129d[m[33m ([m[1;33mtag: [m[1;33mv9.3.8[m[33m)[m GitHub Workflows security hardening (#5992)
+[33m4a73b5d5[m Add Laravel Bootcamp to Learning Laravel (#5991)
+[33m1bec4f82[m Validation added `required_if_accepted` (#5987)
+[33mc1dc4199[m Update CHANGELOG
+[33mad219e82[m[33m ([m[1;33mtag: [m[1;33mv9.3.7[m[33m)[m Make email unique (#5978)
+[33m64e01753[m Update CHANGELOG
+[33m8438ba5d[m[33m ([m[1;33mtag: [m[1;33mv9.3.6[m[33m)[m bump the Vite version (#5977)
+[33me5e46b42[m Update CHANGELOG
+[33md18332bd[m[33m ([m[1;33mtag: [m[1;33mv9.3.5[m[33m)[m [9.x] feature: `max_digits` and `min_digits` validation translations (#5975)
+[33me2e25f60[m use except
+[33m7b17f5f3[m use short closure
+[33mc2339577[m add alt to laravel logo image (#5973)
+[33m57400e95[m Update CHANGELOG
+[33m858a3ca6[m[33m ([m[1;33mtag: [m[1;33mv9.3.4[m[33m)[m wip
+[33m951c9c85[m wip
+[33mdbced6ac[m Add ValidateSignature middleware for ignore params (#5942)
+[33m4135d583[m Update CHANGELOG
+[33m74dfb6ce[m[33m ([m[1;33mtag: [m[1;33mv9.3.3[m[33m)[m Validation added `doesnt_end_with` translation (#5962)
+[33mba8ed9d6[m Update CHANGELOG
+[33m3ea3861e[m[33m ([m[1;33mtag: [m[1;33mv9.3.2[m[33m)[m Update composer.json (#5959)
+[33m6e110318[m Update laravel/sanctum version (#5957)
+[33m944c87da[m Update CHANGELOG
+[33mce62296f[m[33m ([m[1;33mtag: [m[1;33mv9.3.1[m[33m)[m [9.x] Don't need to ignore vite config file (#5953)
+[33m551bbca3[m wip
+[33m2bbb0ef6[m Merge branch '9.x'
+[33m52863d9e[m Update font delivery (#5952)
+[33m1e974481[m Update CHANGELOG
+[33mb124ab0f[m[33m ([m[1;33mtag: [m[1;33mv9.3.0[m[33m)[m Vite 3 support (#5944)
+[33mfa5e54a2[m [9.x] Uses `laravel/pint` for styling (#5945)
+[33m88419bfc[m Bump axios version (#5946)
+[33mdf078774[m Update CHANGELOG
+[33m3850b46c[m[33m ([m[1;33mtag: [m[1;33mv9.2.1[m[33m)[m  Update to the latest version of laravel-vite-plugin (#5943)
+[33m91f49543[m Update to the latest version of laravel-vite-plugin (#5932)
+[33m1fa6b7dc[m add default reloading to skeleton (#5927)
+[33mfa4c8c17[m Update bootstrap.js (#5929)
+[33m3c0c7a0d[m bump actions/checkout (#5928)
+[33m14719d09[m Update .gitignore (#5924)
+[33mb331e10a[m Merge branch '9.x'
+[33mbb732056[m Update CHANGELOG
+[33mf46db07e[m[33m ([m[1;33mtag: [m[1;33mv9.2.0[m[33m)[m Update composer.json
+[33md694bc06[m [9.x] Added support for easy development configuration in bootstrap.js (#5900)
+[33m86b4b1b6[m [9.x] Vite (#5904)
+[33m0c3d1fab[m use global functino
+[33m1f9eee06[m Update update-changelog.yml
+[33m2e823dd3[m Update pull-requests.yml
+[33m3d7b0778[m Sorting (#5899)
+[33mc5c731a8[m Update CHANGELOG
+[33m93cc51ed[m[33m ([m[1;33mtag: [m[1;33mv9.1.10[m[33m)[m [9.x] Improve Pusher configuration for easy development (#5897)
+[33mb084aacc[m add language line
+[33mbb0de1f1[m Update CHANGELOG
+[33m2e3563d9[m[33m ([m[1;33mtag: [m[1;33mv9.1.9[m[33m)[m Switch to ESM imports (#5895)
+[33mea6e4097[m Merge branch '9.x'
+[33m8d3a964e[m Update CHANGELOG
+[33m7216fa7e[m[33m ([m[1;33mtag: [m[1;33mv9.1.8[m[33m)[m a few wording changes
+[33m5c5a300b[m [9.x] Add specific test user in seeder (#5879)
+[33m14b6505b[m Update mail.php (#5877)
+[33mffd790ea[m Update CHANGELOG
+[33m5840c98d[m[33m ([m[1;33mtag: [m[1;33mv9.1.7[m[33m)[m Bump minimum Laravel version
+[33m62cb9052[m Update logging.php (#5874)
+[33mf6623521[m [9.x] Run tests for skeleton (#5873)
+[33m17fbcaaa[m Merge branch '8.x' into 9.x
+[33m52e99847[m Fix alphabetical order for password rules (#5872)
+[33md0603437[m Bump laravel/framework version to latest (#5870)
+[33mba5f2dd2[m Update CHANGELOG
+[33m9d398355[m[33m ([m[1;33mtag: [m[1;33mv9.1.6[m[33m)[m  [9.x] Add missing maintenance to config (#5868)
+[33mdb0d052e[m move password lines into main translation file
+[33mba23174f[m Update CHANGELOG
+[33m78ad150a[m[33m ([m[1;31morigin/8.x[m[33m)[m Update CHANGELOG.md
+[33md5d2b67d[m[33m ([m[1;33mtag: [m[1;33mv9.1.5[m[33m)[m fix docblock
+[33ma8cefc2d[m update wording
+[33ma507e142[m add levels to handler
+[33m843a4f81[m[33m ([m[1;33mtag: [m[1;33mv8.6.12[m[33m)[m Update server.php (#5863)
+[33mb630eae0[m Update RouteServiceProvider.php (#5862)
+[33m039a99ad[m Create pull-requests.yml
+[33m19272e0b[m revert change - unnecessary :)
+[33m9986d516[m remove packages file for a better experience
+[33md70eb3e1[m wip
+[33m61d1448c[m Update CHANGELOG
+[33mf7b982eb[m[33m ([m[1;33mtag: [m[1;33mv9.1.4[m[33m)[m add encryption configuration
+[33m55db9d68[m Update CHANGELOG
+[33md650fa2a[m[33m ([m[1;33mtag: [m[1;33mv9.1.3[m[33m)[m [9.x] Make authenticate session a route middleware (#5842)
+[33mc532e146[m Remove "password" validation key (#5856)
+[33m004b1319[m Drop PHP 8.0 (#5854)
+[33m23bf2901[m Merge branch '9.x'
+[33m8594815f[m Add username in config to use with phpredis + ACL (#5851)
+[33mc4f8ed09[m Update update-changelog.yml
+[33m9ffc18aa[m The comment for cache key prefix needed an update (#5849)
+[33md8f0e93c[m [9.x] Add an example to the class aliases (#5846)
+[33m222908f9[m Update .styleci.yml
+[33mb18216ad[m Update .styleci.yml (#5843)
+[33m660417c9[m Update CHANGELOG.md
+[33m9605fb17[m[33m ([m[1;33mtag: [m[1;33mv9.1.2[m[33m)[m The docker-compose.override.yml should not be ignored by default (#5838)
+[33m67be9519[m Update CHANGELOG.md
+[33m95fec9a3[m[33m ([m[1;33mtag: [m[1;33mv9.1.1[m[33m)[m Update mail.php (#5836)
+[33m93395a34[m [9.x] add throw to filesystems config (#5835)
+[33m4ecd97bc[m Add option to configure Mailgun transporter scheme (#5831)
+[33m969ff64e[m Small typo fix in filesystems.php (#5827)
+[33mdcf59f0e[m Update CHANGELOG.md
+[33mecf7b06c[m[33m ([m[1;33mtag: [m[1;33mv9.1.0[m[33m)[m Replace Laravel CORS package (#5825)
+[33m871ff9e6[m [9.x] Update sanctum config file (#5820)
+[33m4a6229aa[m Update RouteServiceProvider.php (#5818)
+[33m345e4656[m Update CHANGELOG.md
+[33m19f4e346[m[33m ([m[1;33mtag: [m[1;33mv9.0.1[m[33m)[m Add underscore to prefix in database cache key (#5817)
+[33m376ed676[m Update RouteServiceProvider.php (#5816)
+[33m20b7e19a[m add default address
+[33m5eef672a[m [9.x] Fix lang alphabetical order (#5812)
+[33mf2b8023d[m Revert "Add Redis facade as comment in app.config (#5813)" (#5814)
+[33mefd49c6b[m Add Redis facade as comment in app.config (#5813)
+[33m5a374ae6[m [10.x] Prep Laravel 10 (#5805)
+[33me0779766[m [9.x] Remove redundant `null`s (#5811)
+[33m6c1f430a[m Revert "Fix .gitattributes consistency with .editorconfig (#5802)" (#5809)
+[33m90be1e32[m Merge pull request #5807 from u01jmg3/9.x
+[33m8097a3da[m Align min PHP version with docs
+[33ma49d1c2a[m Merge pull request #5806 from axlon/patch-1
+[33m6479a60e[m Improve typing on user factory
+[33m207a23e4[m Fix .gitattributes consistency with .editorconfig (#5802)
+[33m5901059e[m add discovery method default
+[33m13035e08[m revert 10 for now
+[33m93013044[m Laravel 10
+[33m1d9e53f9[m Adds Laravel `v9.x` to changelog (#5803)
+[33m4c6186ac[m Update CHANGELOG.md
+[33m4c2104ac[m Update CHANGELOG.md
+[33mfb72538c[m[33m ([m[1;33mtag: [m[1;33mv9.0.0[m[33m)[m Update CHANGELOG.md
+[33m130b8de9[m Update CHANGELOG.md
+[33mb0934a91[m Merge branch '8.x'
+[33m79805bc1[m[33m ([m[1;33mtag: [m[1;33mv8.6.11[m[33m)[m [8.x] Auto update changelog file with a new release (#5801)
+[33m71efaae0[m Merge branch '8.x'
+[33mb86a62a6[m Reverts analysing routes folder as it causes issues with html coverage reporter (#5800)
+[33m4c5b7742[m Added missing dot in `required_array_keys` validation rule (#5798)
+[33mf7bc33d5[m Merge pull request #5797 from ArnaudLier/patch-1
+[33m6e1e4dd1[m Update .styleci.yml
+[33m939b0ce9[m remove session key
+[33m096638ea[m Update the default Argon2 options
+[33m94771229[m Merge pull request #5795 from emaia/patch-1
+[33m9051a027[m Fix alphabetical order
+[33m8819ee70[m [9.x]: remove redundant argument `null` since default parameter is `null` (#5791)
+[33m926c48e8[m add validation language line
+[33md43dcb1c[m document json session serialization (#5787)
+[33m5ae2f24a[m fix spacing
+[33m54a249cd[m Bumps `nunomaduro/collision` dependency (#5782)
+[33maed682e0[m [9.x] Make it easier to support Papertrail on Vapor out of the box (#5780)
+[33mb2dbbafa[m [9.x] remove `null` since default parameter is `null` (#5779)
+[33m4db44f80[m Merge pull request #5774 from morrislaptop/user-factory-type
+[33mf346b9a2[m Bump axios version (#5773)
+[33m1db81e7e[m use FQN
+[33m4c940868[m switch to extends
+[33m7bff7c6c[m add type to UserFactory for generic parent class
+[33me92f1e97[m [9.x] Analysis routes files test coverage (#5771)
+[33m0df17db8[m Improves app's default aliases configuration file (#5769)
+[33m9b93e0d2[m Use <env> element (#5765)
+[33m929571de[m Bumped minimum guzzle version to match that of the framework suggest list (#5766)
+[33m9b4e424d[m Add Ignition (#5764)
+[33m726e0bb1[m Merge pull request #5763 from laravel/revert-5762-master
+[33m3701593e[m Revert "[9.x] Add Ignition"
+[33m9c182f86[m Merge pull request #5762 from freekmurze/master
+[33m70a8b4a1[m Update composer.json
+[33mb58d346b[m Update composer.json (#5761)
+[33m8d08717f[m Update README.md
+[33m6808b205[m Use latest version of laravel-cors (#5758)
+[33m409992ee[m [9.x] Make .env.example sync with new changes (#5757)
+[33m2b7464fa[m Merge branch '8.x'
+[33m56a73db2[m[33m ([m[1;33mtag: [m[1;33mv8.6.10[m[33m)[m Update CHANGELOG.md
+[33m013b1779[m [9.x] Removes Core Class Aliases from the skeleton (#5751)
+[33mf79296dc[m Add mac_address validation message (#5754)
+[33m1ea35191[m Update validation.php (#5753)
+[33m472d31e5[m Simplify the maintenance file call (#5752)
+[33me999e1d0[m Update composer.json (#5750)
+[33m583281c4[m Removes `server.php` file (#5747)
+[33m2a88c174[m Imports without model events trait on seeds (#5745)
+[33m4bc502bb[m Delete web.config (#5744)
+[33mc97ba79a[m [9.x] Add client_options to Pusher driver (#5743)
+[33m274d1bdd[m Merge branch '8.x'
+[33m7e78e26c[m[33m ([m[1;33mtag: [m[1;33mv8.6.9[m[33m)[m Update CHANGELOG.md
+[33m68a0dbed[m [8.x] Add option to set sendmail path. Fix default (#5741)
+[33m8a62ca26[m Improves generic types on the skeleton (#5740)
+[33m7bf32280[m [8.x] Add types to arrays in boilerplate (#5738)
+[33me35899f0[m Fix asset publishing if they were already published (#5734)
+[33mfcb4d9df[m Merge branch '8.x'
+[33m901879dd[m Update CHANGELOG.md
+[33m0eb4a40e[m[33m ([m[1;33mtag: [m[1;33mv8.6.8[m[33m)[m Update CHANGELOG.md
+[33m3de91bca[m sort validation rules alphabetically (#5728)
+[33m33ceba78[m Removes the commands property (#5727)
+[33m21c3ef96[m Merge branch '8.x'
+[33mf8ff35e0[m[33m ([m[1;33mtag: [m[1;33mv8.6.7[m[33m)[m Update CHANGELOG.md
+[33m195a7e03[m Replace schema with search_path in pgsql config (#5726)
+[33m2079d34c[m Update sanctum.php (#5725)
+[33mc112d149[m Added declined and declined_if validation rules (#5723)
+[33maa71b038[m Merge branch '8.x'
+[33mbad350d1[m[33m ([m[1;33mtag: [m[1;33mv8.6.6[m[33m)[m Update CHANGELOG.md
+[33m399d435c[m add facade
+[33m79249c92[m Added Romega Software to Sponsorships (#5721)
+[33mca8e5d65[m Remove redundant tap() helper in index.php (#5719)
+[33md54907c2[m Merge branch '8.x'
+[33m5d22b246[m[33m ([m[1;33mtag: [m[1;33mv8.6.5[m[33m)[m Update CHANGELOG.md
+[33m15427830[m PHPDoc types should be covariant with the parent type (#5714)
+[33m9915831d[m Guess database factory model by default (#5713)
+[33m8f63479d[m[33m ([m[1;33mtag: [m[1;33mv8.6.4[m[33m)[m Update CHANGELOG.md
+[33mbf2a67c6[m wip
+[33m1980ca13[m [8.x] Logs deprecations instead of treating them as exceptions (#5711)
+[33m1117ebd8[m added password translation rules
+[33m196a2759[m Remove additional `}` from welcome view inline css (#5702)
+[33mab2b6061[m Temporarily remove tinker from master
+[33me124d6d9[m Merge branch '8.x'
+[33ma3b76dbe[m[33m ([m[1;33mtag: [m[1;33mv8.6.3[m[33m)[m Update CHANGELOG.md
+[33m6a680922[m Revert "Uses `LazilyRefreshDatabase` by default (#5696)" (#5700)
+[33m7156a27c[m move lang directory
+[33mbdcb9681[m fix conflicts
+[33m78e1d56c[m Update validation.php (#5699)
+[33m2c644455[m Use anonymous migration for personal_access_tokens table (#5698)
+[33m4578193d[m Uses `LazilyRefreshDatabase` by default (#5696)
+[33mef9d0e4c[m Ensures downloaded version of Collision supports PHP 8.1 (#5697)
+[33maa9cb884[m Bump Mockery and PHPUnit
+[33m5f7395b2[m Keeping access tokens migration id consistent (#5691)
+[33m1e5b9989[m [8.x] Add failover in supported mail configurations comment section (#5692)
+[33m0d939c9e[m Remove auth_mode from config/mail.php (#5688)
+[33ma6d1019b[m Merge branch '8.x'
+[33m4f8a0f35[m[33m ([m[1;33mtag: [m[1;33mv8.6.2[m[33m)[m Update CHANGELOG.md
+[33m0bc52586[m [8.x] Added `prohibits` validation message (#5681)
+[33ma36f02c4[m Dark mode auth links contrast (#5678)
+[33mec9ff4cd[m Merge branch '8.x'
+[33m75a7dba9[m[33m ([m[1;33mtag: [m[1;33mv8.6.1[m[33m)[m Update CHANGELOG.md
+[33m7c993468[m [8.x] Use PHPDoc comments from base class in User model (#5676)
+[33m8677c94a[m Fixing "Line exceeds 120 characters" in TrustProxies (#5677)
+[33m52de5d84[m wip
+[33mc512ba2b[m Update app.php (#5674)
+[33m3399464a[m Add failover driver to default mail config file (#5672)
+[33m6b946caa[m Merge branch '8.x'
+[33mb55e3fbb[m[33m ([m[1;33mtag: [m[1;33mv8.6.0[m[33m)[m Update CHANGELOG.md
+[33m6e10e965[m Add WebReinvent as a Sponsor (#5668)
+[33m5f9dbb41[m [9.x] Use php 8 null safe operator (#5670)
+[33md57cc57c[m Merge pull request #5669 from laravel/8.x
+[33ma199c3bc[m Update .styleci.yml
+[33m6dde1832[m Sanctum dev-develop
+[33m018bb3c1[m Merge branch '8.x'
+[33m226d1bfc[m [8.x] Sanctum (#5663)
+[33m4d0f40f9[m Merge branch '8.x'
+[33m236b3187[m[33m ([m[1;33mtag: [m[1;33mv8.5.24[m[33m)[m Update CHANGELOG.md
+[33mb6f4ee76[m Use new TrustProxies middleware (#5662)
+[33m7f68c301[m [9.x] Allow develop installs (#5660)
+[33m542fdfdc[m Merge branch '8.x'
+[33m59f33209[m Merge branch '6.x' into 8.x
+[33me5962266[m [8.x] Add accepted_if validation rule (#5658)
+[33m4c552aef[m Merge branch '8.x'
+[33m82b51356[m[33m ([m[1;33mtag: [m[1;33mv8.5.23[m[33m)[m Update CHANGELOG.md
+[33md286a15b[m [8.x] Unified asset publishing (#5654)
+[33m54c0b5bc[m wip
+[33m77086029[m Merge branch '8.x'
+[33m8e551045[m[33m ([m[1;33mtag: [m[1;33mv8.5.22[m[33m)[m Update CHANGELOG.md
+[33m7c977fb9[m Drop PHP 7.4 support
+[33mc636fd0f[m add RateLimiter facade alias (#5642)
+[33m1e4312f2[m[33m ([m[1;33mtag: [m[1;33mv8.5.21[m[33m)[m Update CHANGELOG.md
+[33m86658912[m Update validation.php (#5636)
+[33mc5f6f618[m Update validation.php (#5637)
+[33mc0363f62[m Fix editorconfig for laravel/sail's docker-compose (#5632)
+[33md4ff3b72[m Merge branch '8.x'
+[33m99d5ca28[m[33m ([m[1;33mtag: [m[1;33mv8.5.20[m[33m)[m Update CHANGELOG.md
+[33mc1587b52[m Add translation for current_password rule (#5628)
+[33m92cd828c[m Merge branch '8.x'
+[33m0296bb63[m[33m ([m[1;33mtag: [m[1;33mv8.5.19[m[33m)[m Update CHANGELOG.md
+[33m131a1026[m add .idea and .vscode to gitignore (#5615)
+[33mc5d38d46[m update skeleton for filesystem tweaks to make sail usage easier
+[33m507d4995[m Merge branch '8.x'
+[33mafa06fac[m[33m ([m[1;33mtag: [m[1;33mv8.5.18[m[33m)[m Update CHANGELOG.md
+[33md3efbaab[m [8.x] Fixed grammar mistake (#5611)
+[33m637c85d6[m wip
+[33m3131f789[m Add Octane cache store (#5610)
+[33m72c6aaa8[m Merge branch '8.x'
+[33mb1b28a6b[m[33m ([m[1;33mtag: [m[1;33mv8.5.17[m[33m)[m Update CHANGELOG.md
+[33mecf460a8[m[33m ([m[1;33mtag: [m[1;33mv6.20.1[m[33m)[m Update CHANGELOG.md
+[33m4ce641d5[m Apply fixes from StyleCI (#5607)
+[33meb484ce7[m Laracasts contains 2000 video tutorials
+[33mca7f3866[m [8.x] Grammatical omission of 'of' on line 14 (#5603)
+[33m5c137aae[m Bump framework version (#5602)
+[33m5bd72e78[m Bump framework version (#5601)
+[33mdd8111a3[m Merge branch '8.x'
+[33ma6ffdbdf[m[33m ([m[1;33mtag: [m[1;33mv8.5.16[m[33m)[m Update CHANGELOG.md
+[33me109ac90[m Update .gitignore (#5593)
+[33m6746f4ec[m [9.x] Implement anonymous migrations (#5590)
+[33m0e8e9a07[m [8.x] Using faker method instead of properties (#5583)
+[33m54741275[m Update README.md
+[33m5808129a[m Rename test methods (#5574)
+[33m9e920323[m Merge branch '8.x'
+[33m6bc0b1cf[m[33m ([m[1;33mtag: [m[1;33mv8.5.15[m[33m)[m Update CHANGELOG.md
+[33mf5cac881[m Re-order composer.json (#5570)
+[33me4641827[m Add prohibited validation rule (#5569)
+[33m2b4d7c87[m [9.x] Change default disk env key (#5568)
+[33mf51adc5b[m Merge branch '8.x'
+[33m57ddc0eb[m[33m ([m[1;33mtag: [m[1;33mv8.5.14[m[33m)[m Update CHANGELOG.md
+[33m9c5e6f97[m update wording
+[33me95a675e[m Minor update to check if application is under maintenance documentation
+[33m471195d7[m Fix footer on mobile (#5561)
+[33m177e05be[m Add log level config value to stderr channel (#5558)
+[33m89b15441[m add date facade alias (#5556)
+[33m3a62cfb4[m Add language for prohibited_if and prohibited_unless validation rules (#5557)
+[33m38207d61[m Merge branch '8.x'
+[33ma315767e[m[33m ([m[1;33mtag: [m[1;33mv8.5.13[m[33m)[m Update CHANGELOG.md
+[33m5cfd28df[m Add missing 'after_commit' attribute (#5554)
+[33mc9883355[m Standarise "must" and "may" language in validation (#5552)
+[33m2b8f3aa5[m Use same default queue name for all drivers (#5549)
+[33m941bd32e[m Merge branch '8.x'
+[33m20455c6f[m[33m ([m[1;33mtag: [m[1;33mv8.5.12[m[33m)[m Update CHANGELOG.md
+[33m03be0afb[m Don't trim `current_password` (#5546)
+[33m8c7ccd3f[m target 1.16.15 of facade/ignition for Laravel 6.x (#5544)
+[33m16f531e6[m [8.x] Added sans-serif as Fallback Font (#5543)
+[33mb2ac0318[m Merge branch '8.x'
+[33m06d967a4[m[33m ([m[1;33mtag: [m[1;33mv8.5.11[m[33m)[m Update CHANGELOG.md
+[33mf0de9fd9[m Don't flash 'current_password' input (#5541)
+[33m828f2d44[m Merge branch '8.x'
+[33mebf2646c[m[33m ([m[1;33mtag: [m[1;33mv8.5.10[m[33m)[m wip
+[33m689c0e5a[m Update CHANGELOG.md
+[33m698a61d0[m Merge branch '8.x' of github.com:laravel/laravel into 8.x
+[33m9a56a60c[m update wording
+[33m22626b57[m Revert "Change "Login" text to "Log in" (#5536)" (#5537)
+[33mcbddb27c[m Change "Login" text to "Log in" (#5536)
+[33meaf72895[m Add unverified state to UserFactory (#5533)
+[33m6d082c81[m add "ably" in comment as a broadcast connection (#5531)
+[33mc1b56831[m update web.config (#5528)
+[33mbea2c261[m Bump to PHP 7.4 (#5527)
+[33m6d3e5ed9[m Merge branch '8.x'
+[33ma96fe932[m[33m ([m[1;33mtag: [m[1;33mv8.5.9[m[33m)[m Update CHANGELOG.md
+[33mb580fc1e[m Delete docker-compose.yml (#5522)
+[33m21c0aed8[m Add a missing dot in translations (#5520)
+[33m30831ee7[m Bumps Collision version (#5517)
+[33m31a4fc99[m Mailhog's forward ports configurable (#5518)
+[33m5dd08043[m wip
+[33mea7de4f5[m Hide .env.bak as well as .env.backup in .gitignore (#5515)
+[33mcdd79ce5[m[33m ([m[1;33mtag: [m[1;33mv8.5.8[m[33m)[m Update CHANGELOG.md
+[33mf97e5510[m Update TrustProxies.php (#5514)
+[33mc6059645[m Merge branch '8.x'
+[33mf9f39ee7[m[33m ([m[1;33mtag: [m[1;33mv8.5.7[m[33m)[m Update CHANGELOG.md
+[33m4de728e7[m Update to package.json - Axios Version
+[33meeb91d45[m Upgrade to Mix v6 (#5505)
+[33m947df2ac[m Update sail package in the composer.json (#5507)
+[33m919ea4ce[m update tests
+[33m7a2f389f[m Merge branch 'master' of github.com:laravel/laravel
+[33mb1c8ffa1[m Merge branch '8.x'
+[33m454f0e1a[m[33m ([m[1;33mtag: [m[1;33mv8.5.6[m[33m)[m Update CHANGELOG.md
+[33me8788a76[m update cache
+[33mbc339f71[m add lock_connection
+[33m501766f1[m Merge branch '8.x'
+[33m0059fb91[m Update CHANGELOG.md
+[33m3b2ed46e[m[33m ([m[1;33mtag: [m[1;33mv8.5.5[m[33m)[m update variables
+[33mddb26fbc[m[33m ([m[1;33mtag: [m[1;33mv8.5.4[m[33m)[m update env vars
+[33m03ecf00f[m Gitignore docker-compose.override.yml (#5487)
+[33mb7cde8b4[m[33m ([m[1;33mtag: [m[1;33mv8.5.3[m[33m)[m comment trust hosts
+[33md80ff4d5[m add sponsor
+[33m17668bea[m[33m ([m[1;33mtag: [m[1;33mv8.5.2[m[33m)[m add sail
+[33m34368a4f[m[33m ([m[1;33mtag: [m[1;33mv8.5.1[m[33m)[m revert change
+[33mbcd87e80[m[33m ([m[1;33mtag: [m[1;33mv8.5.0[m[33m)[m add sail file
+[33mad8210f3[m Merge branch '8.x' of github.com:laravel/laravel into 8.x
+[33ma8957489[m update env file for sail
+[33m858b094b[m Merge branch '8.x'
+[33m0717bb02[m[33m ([m[1;33mtag: [m[1;33mv8.4.4[m[33m)[m Update CHANGELOG.md
+[33mf6f772ba[m Uncomment TrustHosts middleware to enable it by default. (#5477)
+[33m82213fbf[m remove cloud option
+[33md218676d[m Merge branch '8.x' of github.com:laravel/laravel into 8.x
+[33m612d1660[m comment out alias by default
+[33md4cf3e2c[m Merge branch '8.x'
+[33m86b1b3f2[m[33m ([m[1;33mtag: [m[1;33mv8.4.3[m[33m)[m Update CHANGELOG.md
+[33m3c814aa8[m [8.x] Add missing null cache driver in config/cache.php (#5472)
+[33m5182e9c6[m add ably entry
+[33me253d4eb[m Merge branch '8.x'
+[33me8498122[m[33m ([m[1;33mtag: [m[1;33mv8.4.2[m[33m)[m Update CHANGELOG.md
+[33m9957559d[m closed @auth correctly (#5471)
+[33m4931af14[m add stub handler
+[33m7aa213a5[m add stub handler to exception handler
+[33m3adc2196[m Modify the cache.php docblocks (#5468)
+[33m1ad5a8d6[m Merge branch '8.x' of github.com:laravel/laravel into 8.x
+[33maa6d3660[m add sanctum cookie endpoint to default cors paths
+[33me4517a89[m Merge branch '8.x'
+[33m3d7a5075[m[33m ([m[1;33mtag: [m[1;33mv8.4.1[m[33m)[m Update CHANGELOG.md
+[33mb54ef297[m add auth line
+[33m1aa50f0e[m Merge branch '8.x'
+[33md9e85605[m Update CHANGELOG.md
+[33mc31edfe4[m Merge branch 'master' into develop
+[33mefdde1e9[m Merge branch '7.x'
+[33m3923e7f7[m[33m ([m[1;33mtag: [m[1;33mv7.30.1[m[33m, [m[1;31morigin/7.x[m[33m)[m Update CHANGELOG.md
+[33mff355973[m Lower ignition constraint
+[33m1d1dc13d[m Merge branch 'master' into develop
+[33m3e9fd591[m[33m ([m[1;33mtag: [m[1;33mv8.4.0[m[33m)[m Update CHANGELOG.md
+[33m17778838[m Bump mockery
+[33m8b947ba3[m Merge branch '7.x'
+[33m509708c7[m[33m ([m[1;33mtag: [m[1;33mv7.30.0[m[33m)[m Update CHANGELOG.md
+[33m8ae2d8ec[m Bump ignition and collision
+[33m3c4eac92[m Bump Guzzle
+[33m45fa128a[m Merge branch '6.x' into 7.x
+[33md85be866[m[33m ([m[1;33mtag: [m[1;33mv6.20.0[m[33m)[m Update CHANGELOG.md
+[33m31fbf612[m Bump fideloper/proxy
+[33meb34def2[m Bump tinker
+[33md906d7b8[m Update phpunit constraints
+[33mf363bc30[m Bump ignition
+[33mfc79b8bb[m Merge branch '7.x'
+[33m9af70cff[m Merge branch '6.x' into 7.x
+[33m27338d9a[m Allow PHPUnit 9
+[33m0d5d51fb[m Merge branch 'master' into develop
+[33m4966dd9b[m[33m ([m[1;33mtag: [m[1;33mv8.3.0[m[33m)[m Update CHANGELOG.md
+[33m86d4ec09[m Update minimum Laravel version
+[33m24604418[m Merge branch '7.x'
+[33m482d68a1[m[33m ([m[1;33mtag: [m[1;33mv7.29.0[m[33m)[m Update CHANGELOG.md
+[33m02ca8538[m Nump minimum Laravel version
+[33m056a9e8f[m Merge branch '6.x' into 7.x
+[33maef279a6[m[33m ([m[1;33mtag: [m[1;33mv6.19.0[m[33m)[m Update CHANGELOG.md
+[33mb8d58258[m Update minimum Laravel version
+[33ma4d45e69[m Update CHANGELOG.md
+[33m5396be6e[m update welcome view
+[33m554c0799[m Merge branch 'master' into develop
+[33mb3220963[m Merge branch '7.x'
+[33m9b21125e[m Merge branch '6.x' into 7.x
+[33m4c25cb95[m Allow for PHP 8
+[33md1c60201[m Merge branch 'master' into develop
+[33m8bfecacf[m Merge branch '7.x'
+[33m533f130f[m Merge branch '6.x' into 7.x
+[33m3d46fc35[m Update Faker (#5461)
+[33m22fa816f[m Delete removed webpack flag (#5460)
+[33mbec982b0[m update by
+[33m453d7286[m Revert per user API rate limit
+[33m445ca935[m [9.x] Allow for composer install on Laravel 9 (#5453)
+[33maeec665b[m Update composer.json (#5452)
+[33m71c6571f[m Merge branch 'master' into develop
+[33md82d7505[m[33m ([m[1;33mtag: [m[1;33mv8.2.0[m[33m)[m Update CHANGELOG.md
+[33m8d3ca07c[m add 'multiple_of' translation (#5449)
+[33m6bfe6836[m [8.x] Added 'LOG_LEVEL' env variable in .env.example (#5445)
+[33m13668dd8[m Update CHANGELOG.md
+[33m1e29cf35[m Merge branch 'master' into develop
+[33mc66546e7[m[33m ([m[1;33mtag: [m[1;33mv8.1.0[m[33m)[m Update CHANGELOG.md
+[33mf5161080[m Update CHANGELOG.md
+[33mf12fd984[m Update logging.php (#5442)
+[33m7b958b5d[m [8.x] Update the badges to use shields.io (#5441)
+[33m38bc9119[m type hint the middleware Request (#5438)
+[33ma6ca5778[m[33m ([m[1;33mtag: [m[1;33mv8.0.3[m[33m)[m add comment
+[33md3353c9e[m[33m ([m[1;33mtag: [m[1;33mv8.0.2[m[33m)[m Fix route when uncomment $namespace (#5424)
+[33m6a9d5e0d[m Merge branch '7.x' into master
+[33m4eeb29ee[m Update changelog
+[33mf1a51f7c[m [8.x] Update User Model to Match Jetstream Formatting (#5422)
+[33m69d0c504[m add commented code
+[33mc62a7c13[m Update model path in AuthServiceProvider's policies.
+[33mc6c41f11[m Revert "Fix PHPUnit bool server consts result in null (#5409)" (#5411)
+[33m7cd15dba[m Avoid deprecated StyleCI fixer name (#5410)
+[33m1c4af33b[m Fix PHPUnit bool server consts result in null (#5409)
+[33mca30159c[m fully qualified user model in seeder (#5406)
+[33m292a5b26[m swap route order
+[33mb33852ec[m remove property
+[33m9cbc3819[m[33m ([m[1;33mtag: [m[1;33mv8.0.1[m[33m)[m add property to route service provider
+[33m94e79455[m Fix docblock for variadic parameter (#5401)
+[33m232224c5[m Update composer.json
+[33mb9b282a7[m Use the new Google Fonts API (#5396)
+[33mc6406162[m[33m ([m[1;33mtag: [m[1;33mv8.0.0[m[33m)[m Use the new Google Fonts API (#5398)
+[33m151e11ca[m Merge branch 'master' into develop
+[33ma7a40d77[m[33m ([m[1;33mtag: [m[1;33mv7.28.0[m[33m)[m Merge branch '6.x' into master
+[33m179e52bd[m Fix logo
+[33m7895cd3a[m Update docblock (#5392)
+[33mdc5817bb[m Update Handler.php
+[33mcfd428bf[m add dontReport property
+[33mced3e50b[m use new rate limiting
+[33m23205e27[m Add back in ignition
+[33m3a5f05ce[m Merge branch 'master' into develop
+[33m2c69ec98[m Merge branch '6.x' into master
+[33m48b7ba93[m [8.x] Bump Guzzle (#5381)
+[33mfd8a872b[m update channel
+[33m710d472d[m models directory
+[33md6eda444[m update defaults
+[33m57cc8990[m Merge branch 'master' into develop
+[33mfa43c0a3[m[33m ([m[1;33mtag: [m[1;33mv7.25.0[m[33m)[m Update CHANGELOG.md
+[33m921b14b9[m[33m ([m[1;33mtag: [m[1;33mv6.18.35[m[33m)[m Update CHANGELOG.md
+[33m39a58710[m Merge pull request #5370 from laravel/bump-7
+[33mbbd36167[m Merge pull request #5369 from laravel/bump-6
+[33m0512f006[m Set framework version ^7.24
+[33me96840e2[m Set framework version ^6.18.35
+[33m53d14e51[m [8.x] PHPUnit 9.3+ style code coverage config (#5368)
+[33m5914e9ce[m Merge branch 'master' into develop
+[33mb3f60041[m Merge branch '6.x' into master
+[33mca3b58cd[m change method
+[33m407b6b8b[m Revert "Apply fixes from StyleCI (#5356)" (#5357)
+[33m6cbfb781[m Apply fixes from StyleCI (#5356)
+[33m0e7fd2be[m Fix version
+[33ma7b70fcc[m fix version
+[33m074c3840[m Merge pull request #5355 from laravel/bump
+[33mb1277e2e[m Bumped laravel 6 min version for new LTS users
+[33me9e7c972[m [7.x] Enforce ^7.22.1 due to security issues (#5354)
+[33m791c87a8[m Update README.md
+[33m232995ca[m Update README.md
+[33m20533758[m Merge branch 'master' into develop
+[33mf465c511[m Bump lodash from 4.17.15 to 4.17.19
+[33m6d9296c7[m Merge pull request #5346 from ahinkle/patch-1
+[33m5f462521[m Bump lodash from 4.17.15 to 4.17.19
+[33mdb473189[m update gitignores
+[33m3b418421[m change path
+[33m47e2781f[m update for maintenance mode
+[33m395ede7a[m add gitignore
+[33m228aa230[m update for maintenance mode
+[33me471dd1c[m rename class
+[33ma14a1208[m remove alias that isnt needed
+[33me265156b[m simplify line
+[33m6f1f40bc[m update link
+[33ma9623d35[m update wording
+[33mce3e006d[m remove unneeded property. can use ignore method
+[33ma9abc853[m consolidate to a single method
+[33m880cc1d3[m simplify default exception handler
+[33madb7eacf[m [8.x] Multiple guards for RedirectIfAuthenticated (#5329)
+[33m6ca2ecac[m remove unneeded block
+[33mc58b40b9[m Remove extra line
+[33md2db8d81[m fix comments
+[33m5c7c9f36[m adjust index script
+[33mae2af3ad[m tap
+[33m58a98efb[m tweak route provider default settings
+[33me0c4fd8b[m one line
+[33m17e2ce73[m Merge pull request #5324 from nunomaduro/patch-1
+[33m9374d9e7[m Requires PHP 7.3 and bumps both PHPUnit and Collision
+[33m641d1046[m add css file
+[33m588247b7[m use postCss default instead of sass
+[33ma429eab2[m Merge branch 'master' into develop
+[33m311c3f82[m tweak phpunit.xml
+[33m74df1e26[m Merge pull request #5320 from barryvdh/patch-4
+[33m2f33300a[m Bump fruitcake/laravel-cors
+[33mb522e3b3[m shop
+[33m6aa12f1b[m use route service provider
+[33m6e5f4093[m Update README.md
+[33m9e5ba571[m add password reset migration
+[33m5639581e[m[33m ([m[1;33mtag: [m[1;33mv7.12.0[m[33m)[m add basic trust host middleware
+[33mc1048913[m fix formatting
+[33mc3f7dd9a[m fix doc block
+[33mc15a1006[m respect dark mode on splash
+[33m7b0b5d83[m Update sponsor link (#5302)
+[33m7d62f500[m chore: update typehint to be nullable (#5296)
+[33m0f133c1e[m set default auth_mode for smtp mail driver (#5293)
+[33meb080e5c[m Merge branch 'master' into develop
+[33m785405b3[m Merge branch '6.x'
+[33md7d342c2[m Disable webpack-dev-server host check (#5288)
+[33mfac16a7e[m Update DatabaseSeeder.php
+[33m2149e8c2[m update seeders
+[33m5f6f5c92[m add model
+[33mb9af2b22[m Use new factories
+[33m0e01834b[m add sponsor link
+[33m919a0491[m Merge branch 'master' into develop
+[33m3cdfe0ce[m Merge branch '6.x'
+[33m8aab222c[m[33m ([m[1;33mtag: [m[1;33mv6.18.8[m[33m)[m Update CHANGELOG.md
+[33m8be1fd40[m Merge branch 'master' into develop
+[33mb5f008a8[m[33m ([m[1;33mtag: [m[1;33mv7.6.0[m[33m)[m Update CHANGELOG.md
+[33md53c56e4[m remove unneeded parent boot calls
+[33m103fc0b4[m Merge pull request #5278 from voyula/patch-1
+[33m0d23e5f7[m [7.x] Normalize Style
+[33m5f9ee30e[m Disable Telescope in PHPUnit (#5277)
+[33m0dbc6350[m Merge branch 'master' into develop
+[33me2c9261c[m Merge branch '6.x'
+[33m73f723a2[m Add both endpoint and url env variables (#5276)
+[33mf9d2f5be[m remove ignition until its ready for 8
+[33m0f0b78ec[m tweak welcome page
+[33mbf2d370e[m new welcome page
+[33m2a2522d8[m fix wording
+[33mf140d926[m Merge pull request #5271 from winter-ice/master
+[33mb26aaff2[m consistent filename
+[33mf2691fcc[m Merge branch 'master' into develop
+[33mdccc9334[m[33m ([m[1;33mtag: [m[1;33mv7.3.0[m[33m)[m Update CHANGELOG.md
+[33md067d7d8[m[33m ([m[1;33mtag: [m[1;33mv6.18.3[m[33m)[m Update CHANGELOG.md
+[33m1111e6f2[m Merge branch 'master' into develop
+[33m6628b7a1[m Merge branch '6.x'
+[33mb7b6e35b[m Fix s3 endpoint url reference (#5267)
+[33md82bf976[m [7.x] Allow configuring the timeout for the smtp driver (#5262)
+[33m52f69fcf[m add sponsor link
+[33m57cd6a82[m Merge branch 'master' into develop
+[33mf93f4ad8[m Fix session config changes (#5261)
+[33m166abfa3[m Update default CORS config (#5259)
+[33mc7a00024[m Fix the code indent of object operators (#5258)
+[33mb0ce2adc[m Add new SQS queue suffix option (#5252)
+[33m641fcfb6[m remove config entry
+[33m404b43b5[m Merge branch 'master' into develop
+[33m36373983[m Merge branch '6.x'
+[33m5ddbfb84[m Ensure that app.debug is a bool
+[33m3aa22403[m remove empty line from phpunit.xml (#5245)
+[33mefcf74f4[m [7.x] Add Mailgun and Postmark mailer (#5243)
+[33mc9cf57a0[m Add serialize option to array cache config (#5244)
+[33m5c4f9980[m Update CHANGELOG.md
+[33m80b250ca[m Merge branch 'master' into develop
+[33m876142d7[m Update CHANGELOG.md
+[33m2d7b45bf[m Merge branch '6.x'
+[33me773d388[m Update CHANGELOG.md
+[33ma29dd2ed[m Update composer.json
+[33m672f626d[m[33m ([m[1;33mtag: [m[1;33mv7.0.0[m[33m)[m Add array mailer (#5240)
+[33m7bea49b8[m Use MAIL_MAILER in test environment (#5239)
+[33md7c602c1[m Update app.php (#5237)
+[33m0b14a741[m Update app.php (#5237)
+[33m88a763e3[m Update app.php (#5237)
+[33m705076ff[m Bumped min guzzle
+[33m3233e6f8[m Merge branch 'master' into develop
+[33m8cece725[m[33m ([m[1;33mtag: [m[1;33mv6.18.0[m[33m)[m Remove redundant default attributes from phpunit.xml (#5233)
+[33md529de06[m Update composer.json
+[33md038d1f6[m Update composer.json
+[33mc434eae4[m guzzle
+[33m6b905022[m use phpunit 0
+[33m2c4fa1ab[m formatting
+[33md7f67f63[m styling
+[33m153746c2[m add `links` option to filesystems config
+[33meb3143ea[m Uses latest stable of Collision (#5221)
+[33mc78a1d81[m Bump fzaninotto/faker version to support PHP 7.4 (#5218)
+[33mc81712bd[m [6.x] Update cross-env to the latest (#5216)
+[33mf04029a6[m use ignition v2 (#5211)
+[33m38a1249a[m Merge remote-tracking branch 'origin/develop' into develop
+[33m91dd1f61[m formatting
+[33m2503ed68[m Merge branch 'master' into develop
+[33m550282b0[m Merge branch 'check-compiled' of https://github.com/browner12/laravel into browner12-check-compiled
+[33m1d094a80[m [7.x] Update cross-env and resolve-url-loader to the latest (#5210)
+[33m678901cc[m update name
+[33m2fe113e6[m add new `check_compiled` option
+[33mdb596ba0[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33mffc74ba1[m remove hyphen on email
+[33mb1f35786[m Merge branch 'master' into develop
+[33m9d0862b3[m[33m ([m[1;33mtag: [m[1;33mv6.12.0[m[33m)[m Merge pull request #5201 from aimeos/master
+[33m9b6d1b14[m Update laravel mix and sass loader (#5203)
+[33mf121af89[m Add missing full stop for some validation messages (#5205)
+[33m94f8ee3c[m Merge branch 'master' into develop
+[33mb46c16b4[m Update CHANGELOG.md
+[33m130b8c8b[m add ses
+[33me43d4546[m fix comment
+[33m61ec16fe[m work on mail configuration file
+[33m76d82276[m update mail configuration file
+[33mf44f065a[m Use file session driver again
+[33meca7bc7d[m Use file session driver again
+[33m7e5a9154[m Merge branch 'master' into develop
+[33m25c36eb5[m Merge pull request #5196 from laravel/revert-5006-analysis-qxPGgA
+[33m5df3b7b1[m Revert "Apply fixes from StyleCI (#5006)"
+[33m4bf7dffb[m Bumped defaults for Laravel 7 (#5195)
+[33m8af8af0c[m Merge branch 'master' into develop
+[33m0bec06cd[m formatting
+[33mc222f6d0[m CS
+[33me4683c6e[m Revert routes
+[33m860ec9f2[m Use config instead of middleware property
+[33m195faa16[m Fix types consistency in database config (#5191)
+[33m777baff7[m Update composer.json
+[33mbee0e8c9[m Add HandleCors middleware
+[33mdb940594[m Merge branch 'master' into develop
+[33m846f7a19[m Correct exception handler doc (#5187)
+[33m4d565e68[m import facades
+[33mf4c81907[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33mcf5e99e9[m change comment
+[33me6471a6f[m Apply fixes from StyleCI (#5186)
+[33mf13aef87[m move var
+[33m12c28822[m one liner
+[33m3ee0065b[m remove unnecessary variable
+[33m13e43893[m remove auth migration that is now in laravel/ui
+[33mb5bb91fe[m Remove controllers that are generated by laravel/ui package.
+[33m583d1fa7[m [7.x] Remove register in auth provider (#5182)
+[33m7d70bfe8[m Utilize Authentication Middleware Contract  (#5181)
+[33mf589a7e8[m Merge branch 'master' into develop
+[33m99f183b5[m Merge branch 'master' of github.com:laravel/laravel
+[33m140d4d9b[m use class name to be consistent with web middleware
+[33mb2734a9c[m Add MAIL_FROM_ADDRESS & MAIL_FROM_NAME to .env file (#5180)
+[33mc5f91269[m default email from name to app name (#5178)
+[33m17f0ff22[m Updated config/logging.php (#5179)
+[33m89e83915[m[33m ([m[1;33mtag: [m[1;33mv6.8.0[m[33m)[m Merge pull request #5175 from canvural/patch-1
+[33m40f93daa[m Update redirectTo return type PHPDoc
+[33mdd93aca5[m Merge branch 'master' of github.com:laravel/laravel
+[33mf48e2d50[m change some default settings
+[33m136085bf[m Add "none" to supported same site options in session config (#5174)
+[33m972f3cd2[m DRY up path (#5173)
+[33mf4b1dc6d[m [6.x] Implement integration test and in-memory DB (#5169)
+[33m9b664322[m Consistent order (#5167)
+[33m5d50d30c[m Bumped versions
+[33mfb3e88c3[m Merge branch 'master' into develop
+[33mb56fe840[m Use laravel/tinker v2 (#5161)
+[33mb7a5bc7f[m Bumps Collision dependency to v4.0 (#5160)
+[33m2913a55d[m [7.x] Switch to Symfony 5 (#5157)
+[33m2f8e55a9[m Rename `encrypted` to `forceTLS`. (#5159)
+[33mc473b536[m Merge branch 'master' into develop
+[33m1ee38a10[m[33m ([m[1;33mtag: [m[1;33mv6.5.2[m[33m)[m Update CHANGELOG.md
+[33m3c92fb3a[m Merge branch 'master' into develop
+[33mc15a5ee0[m Update readme
+[33m21f24784[m Merge branch 'master' into develop
+[33m94056af6[m Rename readme
+[33m57801894[m Consistent readme
+[33m2e2be97c[m Implement new primary key syntax (#5147)
+[33mb659069b[m Merge branch 'master' into develop
+[33mbfd4b1e9[m Update .styleci.yml
+[33m89a80da1[m Merge branch 'master' into develop
+[33m953b488b[m[33m ([m[1;33mtag: [m[1;33mv6.4.0[m[33m)[m fix key
+[33mba2f2abe[m tweak formatting
+[33mace38c13[m Security fix: Waiting before retrying password reset
+[33m400df0b0[m Add xml schema to phpunit (#5139)
+[33m9df12c3c[m ignition doesn't support laravel 7 yet
+[33mbb969c61[m Fixes required version of the framework within `composer.json` (#5130)
+[33mdfa5c1f0[m Merge branch 'master' into develop
+[33m39c28801[m Update CHANGELOG.md
+[33m9bc23ee4[m[33m ([m[1;33mtag: [m[1;33mv6.2.0[m[33m)[m formatting
+[33md1f7a5a8[m formatting
+[33mbc82317a[m Merge branch 'password-confirmation' of https://github.com/driesvints/laravel into driesvints-password-confirmation
+[33mba3aae6c[m Implement password confirmation
+[33m4036f174[m Remove middleware from password reset
+[33m050c1d88[m Add new password rule language line
+[33m51a1297a[m [6.x] Added OP.GG sponsor (#5121)
+[33mc70c986e[m [6.x] Add 'null' logging channel (#5106)
+[33m42e864f3[m remove testing bootstrap extension (#5107)
+[33mcba8d19f[m Added Appoly sponsor (#5105)
+[33m56157b9c[m Revert "According to PHP Bug 78516 Argon2 requires at least 8KB (#5097)" (#5102)
+[33mccef55ba[m Merge branch 'master' into develop
+[33m7d728506[m[33m ([m[1;33mtag: [m[1;33mv6.0.2[m[33m)[m Update CHANGELOG.md
+[33m1f48b2c5[m Merge branch 'master' into develop
+[33me6569320[m Apply fixes from StyleCI (#5100)
+[33m79fb6af9[m Order imports alphabetically
+[33m74d84e93[m According to PHP Bug 78516 Argon2 requires at least 8KB (#5097)
+[33m55b314ea[m Update CHANGELOG.md
+[33m00c00b87[m Merge branch 'master' into develop
+[33m4dbe9888[m Update CHANGELOG.md
+[33m9f2f3b1e[m Merge branch '5.8'
+[33mca3f91e7[m Update CHANGELOG.md
+[33m8b96bf01[m[33m ([m[1;33mtag: [m[1;33mv5.8.35[m[33m)[m Update CHANGELOG.md
+[33mcb5047c2[m Merge branch 'master' into develop
+[33m31394de4[m Revert "Set argon defaults to prevent password_hash(): Memory cost is outside of allowed memory range on PHP 7.4 (#5094)" (#5095)
+[33m4992230c[m Merge branch 'patch-1' of https://github.com/SjorsO/laravel into SjorsO-patch-1
+[33m86908e1e[m Set argon defaults to prevent password_hash(): Memory cost is outside of allowed memory range on PHP 7.4 (#5094)
+[33m2967197b[m Merge branch 'master' into develop
+[33m42936c65[m style
+[33m731cd4c4[m add phpunit extension
+[33m360993c1[m Update bootstrap.php
+[33m65959b25[m[33m ([m[1;33mtag: [m[1;33mv6.0.1[m[33m)[m Allowing optional use of yml/yaml file extensions in .editorconfig (#5090)
+[33maf15fe5e[m Revert "Bump PHPUnit"
+[33m5fde1337[m Bump PHPUnit
+[33m054bb430[m Laravel 7
+[33m13ab419d[m add ignition
+[33m41ee35d0[m add ignition
+[33me6becd2c[m[33m ([m[1;33mtag: [m[1;33mv6.0.0[m[33m)[m add new failed driver option
+[33m6ff5d6c7[m Merge branch 'master' into develop
+[33m665dfc43[m [6.0] Use phpredis as default Redis client (#5085)
+[33mb67acda8[m Rename 2019_08_19_175727_create_failed_jobs_table.php to 2019_08_19_000000_create_failed_jobs_table.php (#5082)
+[33maa74fcb3[m Remove manual adding of X-CSRF-TOKEN header (#5083)
+[33mb84bcc64[m Update readme.md
+[33m41e915ae[m Update readme.md
+[33mb7d2b48b[m add failed jobs table
+[33m051dea59[m formatting
+[33mc07809e2[m Merge branch 'master' into develop
+[33mbb433725[m formatting
+[33m83d2ecc0[m Remove Stripe config settings
+[33m4852f483[m Remove deprecated language line (#5074)
+[33ma5111cf7[m Merge branch 'master' into develop
+[33md5691a2e[m Add missing trailing semicolon
+[33mfad6ef3d[m [6.0] - Add vapor link on the welcome view (#5072)
+[33m8f2a2786[m formatting
+[33me21657dc[m Merge branch 'config_caching_v2' of https://github.com/timacdonald/laravel into timacdonald-config_caching_v2
+[33m5391ccca[m Update version constraint (#5066)
+[33m0dd31baf[m Merge branch 'master' into develop
+[33mf73795ac[m Update number of Laracasts videos (#5063)
+[33mddbbd0e6[m Using environment variable to set redis prefix (#5062)
+[33mff15a66d[m Fixed lodash version (CVE-2019-10744) (#5060)
+[33m7c9e5ea4[m [5.9] Add ThrottleRequests to the priority array (#5057)
+[33mafb7cd73[m update deprecated pusher option (#5058)
+[33me71f50f6[m Move TrustProxies to highest priority - fixes maintenance mode ip whitelist if behind proxy e.g. Cloudflare (#5055)
+[33m8ca56226[m style fix
+[33m56960ed2[m introduce test bootstrapping
+[33m78143a1e[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33mfc39b073[m remove ui scaffolding
+[33m386a4e5c[m Merge branch 'master' into develop
+[33mebc6f6e2[m Update .gitignore (#5046)
+[33m61a0829f[m Merge branch 'master' into develop
+[33m6f3d68f6[m use generic default db config
+[33m014a1f0f[m Update axios package (#5038)
+[33mbf60f7f7[m Added support for new redis URL property in config/database.php (#5037)
+[33mf053116c[m remove dumpserver since doesn't work on 5.9
+[33m95309379[m Add DYNAMODB_ENDPOINT to the cache config (#5034)
+[33ma7a1f440[m Merge branch 'master' into develop
+[33m762e987e[m Uppercase doctype
+[33m1c824f6f[m Merge branch 'master' into develop
+[33mf8e455e3[m[33m ([m[1;33mtag: [m[1;33mv5.8.17[m[33m)[m Fix type hint for case of trusting all proxies (string) (#5025)
+[33m93c68741[m Add ends_with validation message (#5020)
+[33mc9bb74c7[m formatting
+[33mfe9f8497[m Remove services deleted from core
+[33m7e6af5c0[m Merge branch 'master' into develop
+[33mfbd3ad7b[m[33m ([m[1;33mtag: [m[1;33mv5.8.16[m[33m)[m Update changelog
+[33mb0e0bdc0[m formatting
+[33m1086e26b[m Update database config relating to Url addition.
+[33m4b78ba61[m fix conflicts
+[33m65f82710[m update version
+[33maf15618b[m Merge pull request #5013 from laravel/revert-5012-feature/exported-files
+[33mccea56b6[m Revert "Exclude StyleCI config from exported files (#5012)"
+[33ma6bf2413[m Exclude StyleCI config from exported files (#5012)
+[33m3995828c[m [5.9] Minor grammar fix in readme.md (#5010)
+[33mf70fff8a[m Merge branch 'master' into develop
+[33m50176732[m Apply fixes from StyleCI (#5006)
+[33m12a4885a[m Fix phpdoc to order by syntax convention (#5005)
+[33m60db703a[m [5.8] Enable JS on StyleCI (#5000)
+[33mcedcbc86[m Merge branch 'master' into develop
+[33mf574aa76[m Disable JS checks for now
+[33mbdc205c8[m Merge branch 'master' into develop
+[33m81fba471[m Merge pull request #4998 from laravel/analysis-z9QV6a
+[33m43b09ad0[m Add file exclusions for styleci
+[33m91dc5ed2[m Apply fixes from StyleCI
+[33m597201a0[m Add StyleCI config
+[33m06162adc[m Merge pull request #4990 from SjorsO/patch-1
+[33mef1ce665[m Update UserFactory.php
+[33m0f58190c[m Merge pull request #4989 from DrewRoberts/update-readme-laracasts
+[33m14b0a07d[m Update readme with Laracasts count
+[33m20cdf65a[m Merge pull request #4987 from DivineOmega/patch-1
+[33m1bed031c[m Remove underscore as cache prefixes automatically have a colon appended to them
+[33m005ec130[m Merge pull request #4986 from DivineOmega/patch-1
+[33m3cbc5ac6[m Additional underscore on cache prefix
+[33m159b0e79[m Additional underscore on redis database prefix
+[33m35374927[m Merge pull request #4982 from DivineOmega/patch-1
+[33me68ff0c6[m Use Str class instead of helper function
+[33mc8bc79e9[m Prefix redis database connection by default to mitigate multiple sites on the same server potentially sharing the same queued jobs
+[33mae44ee00[m Merge pull request #4979 from hyperhost/add-hyper-host-sponsor
+[33m88636c22[m Added Hyper Host sponsor
+[33m3886012c[m Merge pull request #4971 from Lenophie/patch-1
+[33mccc1457e[m Ignore SQLite journals
+[33me80327f2[m Update changelog
+[33mcfd59297[m Merge branch 'master' into develop
+[33m4997f081[m Update changelog
+[33m3b852a1f[m Merge pull request #4963 from chapeupreto/patch-1
+[33m54cd6d90[m upgrade the collision dependency from v2 to v3
+[33m3d325b84[m Update changelog
+[33m3001f3c6[m[33m ([m[1;33mtag: [m[1;33mv5.8.3[m[33m)[m check if extension loaded
+[33ma0f6bcc7[m comment out options
+[33mf4ff4f41[m comment
+[33md4d4a69b[m Merge pull request #4956 from akalongman/master
+[33mb34328a1[m Use correct env name for AWS region from env.example
+[33mf84a69ee[m add bucket to env example
+[33mff4f40fb[m set default region
+[33m0398581a[m Merge branch 'master' of github.com:laravel/laravel
+[33m02c23bdf[m add postmark
+[33m53b59cd0[m Merge branch 'master' into develop
+[33m4c880d3c[m Update changelog
+[33m0629a067[m Merge branch '5.7'
+[33m42c2a7ee[m[33m ([m[1;31morigin/5.7[m[33m)[m Update changelog
+[33m0582a20a[m Encourage to use PHPUnit 8
+[33m25cf4c49[m Require PHP 7.2
+[33m573cc157[m Update to Laravel 5.9
+[33mf191f6f9[m[33m ([m[1;33mtag: [m[1;33mv5.8.0[m[33m)[m Merge branch 'master' into develop
+[33m505a891d[m Merge pull request #4952 from andrewgorpenko/andrewgorpenko-patch-1
+[33m752ca6db[m Merge pull request #4951 from CupOfTea696/feature/add-arr-and-str-aliases
+[33m66eeb3bc[m Fix unterminated statements
+[33m590ae170[m Add Arr and Str aliases by default
+[33m45742652[m add postmark token
+[33m0ee4cec5[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33m64b16c28[m revert to old redis config
+[33mb6813704[m Merge pull request #4946 from ankurk91/patch/big-int
+[33mb5b2341f[m Merge pull request #4949 from laravel/revert-4904-modify-redirect-if-auth-middleware-to-allow-multiple-guards
+[33m44d27417[m Revert "[5.8] Modify RedirectIfAuthenticated middleware to accept multiple guards"
+[33m426df7a0[m [5.8] use bigIncrements by default
+[33m1d8add88[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33md201c69a[m update config file
+[33m3c53897e[m Merge branch 'master' into develop
+[33m83b6be51[m Update changelog
+[33mea7fc0b3[m update client
+[33m2f2fe98a[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33mdf4ecb9c[m change default redis configuration structure
+[33m0904307e[m Merge pull request #4943 from crynobone/patch-1
+[33m69bd1dce[m Use $_SERVER instead of $_ENV for phpunit.
+[33mfae44eeb[m Replace string helper
+[33m75468420[m Use same version as framework
+[33me4f20eac[m Reverse minimum PHPUnit version
+[33m7b675abe[m Merge pull request #4939 from driesvints/phpunit8
+[33m4dc76847[m Update to PHPUnit 8
+[33m2a1f3761[m[33m ([m[1;33mtag: [m[1;33mv5.7.28[m[33m)[m Fix Typo
+[33m864b1de1[m Merge pull request #4934 from JakeConnors376W/patch-1
+[33m43182688[m Merge pull request #4935 from eddybrando/feat/remove-unnecessary-link-type
+[33me40dfc6b[m feat: Remove unnecessary link type
+[33md638b3cd[m Improve grammar and readability
+[33m049c7c9f[m Merge pull request #4933 from laravel/revert-4931-master
+[33m25a980f3[m Revert "[5.7] Ignore testing folder on storage/framework"
+[33mf1702e9c[m Merge pull request #4931 from simoebenhida/master
+[33mc9cd9b35[m ignore testing folder on storage/framework
+[33m37026224[m Merge pull request #4930 from epalmans/master
+[33m2f37ba38[m Attribute casting for 'email_verified_at' on User model stub
+[33med60178b[m Merge pull request #4929 from AbdelElrafa/master
+[33m961aac5d[m Add sponsor.
+[33m098cf460[m Date mutator for 'email_verified_at' attribute on User model stub
+[33m6efb843e[m Merge pull request #4926 from kawax/str
+[33m6e60cf93[m Update UserFactory.php
+[33m992c270d[m Use Str::random() instead of str_random()
+[33m7ba612b3[m Merge pull request #4924 from fideloper/patch-2
+[33m7b322b64[m Update web.config
+[33m19528fba[m web.config comment to help debug issues
+[33m4ce439c2[m Merge pull request #4921 from SjorsO/master
+[33me0ae7914[m change order of boot and register method
+[33mab1e9f8b[m default to false
+[33m6da06fba[m default to true
+[33md80b4e7c[m adjust name of configuration value
+[33m217cbde3[m Hint for lenient log stacks
+[33m1f0640f9[m Merge pull request #4917 from driesvints/remove-unused-bootstrap-class
+[33m2498f317[m Remove unused Bootstrap class
+[33m2b14e0e9[m Merge pull request #4913 from yuloh/beanstalkd-blocking-pop-config
+[33m2588b254[m Add beanstalk queue block_for config key
+[33m9180f646[m add env variable for mysql ssl cert
+[33m2d2c089a[m Merge pull request #4904 from Te7a-Houdini/modify-redirect-if-auth-middleware-to-allow-multiple-guards
+[33m247f7f96[m Update RedirectIfAuthenticated.php
+[33mbb79dda1[m Modify RedirectIfAuthenticated middleware to accept multiple guards
+[33m3a550dee[m Merge branch 'master' into develop
+[33m915667a8[m formatting
+[33mf7950555[m tweak wording
+[33m35de8c98[m Merge branch 'develop' of github.com:laravel/laravel into develop
+[33m1be5e297[m add dynamo to stubs
+[33m1ec97b2c[m Update welcome.blade.php
+[33m29494438[m Merge pull request #4899 from tiagocyberduck/master
+[33mebc94a6c[m Add Cyber-Duck new Patreon Sponsor to readme
+[33m096c2377[m Merge pull request #4896 from goodjack/patch-1
+[33m322f7fb1[m Remove extra whitespace
+[33m321d9e37[m Update changelog
+[33m8f06b20d[m Update changelog
+[33mcfc22201[m remove svgs
+[33md1db3cd0[m Update changelog
+[33mddd8c2a7[m Merge pull request #4884 from eric-famiglietti/patch-1
+[33md0726a34[m Remove extra whitespace.
+[33m87667b25[m update env variable stubs
+[33m3959c09f[m import class
+[33m4070dc98[m fix conflicts
+[33m70532dd8[m[33m ([m[1;33mtag: [m[1;33mv5.7.19[m[33m)[m Merge branch 'mix' of https://github.com/JeffreyWay/laravel into JeffreyWay-mix
+[33mdc58f95e[m Bump to Mix v4
+[33mc8ec9d43[m Merge branch 'master' of github.com:laravel/laravel
+[33me1b8847a[m add env variable
+[33mb1763fe1[m Merge pull request #4878 from TBlindaruk/delete-401.svg
+[33ma071fd86[m [5.8] Delete 401.svg  - in https://github.com/laravel/laravel/pull/4814 I have added the 401 file, since this file was added to the laravel 401 error page in https://github.com/laravel/framework/pull/26116 PR.  For now this 401 error page has a 403.svg img, so this file not needed more
+[33mbc435e7f[m Update .gitignore
+[33m4da373d6[m Merge pull request #4870 from driesvints/update-changelog
+[33maf2b3b18[m Update changelog
+[33mb926f2e1[m Merge pull request #4866 from driesvints/add-starts-with-rule
+[33m7adea122[m Merge pull request #4867 from ajthinking/patch-1
+[33mc9046b22[m Fixed mixed up comment order
+[33m78cb2685[m Add language entry for starts_with rule
+[33m2a483bbf[m[33m ([m[1;33mtag: [m[1;33mv5.7.15[m[33m)[m Merge pull request #4865 from eugenesaenko/patch-1
+[33m3f09521d[m Merge pull request #4861 from unstoppablecarl/middleware-priority-comment
+[33m8d41230c[m Update CHANGELOG.md
+[33mf724d676[m Fix typo and add label to breaking change.
+[33mfcb7d357[m Merge pull request #4863 from staudenmeir/validation
+[33m5052ab1f[m Add date_equals validation message
+[33m03ac80b7[m change variable name
+[33m071a05bd[m use env superglobal
+[33mac8e6fb1[m Merge branch 'master' of github.com:laravel/laravel
+[33m5ea6fe18[m add env variable for compiled view path
+[33m6d75f17a[m Update Kernel.php
+[33m6806aaa3[m Merge pull request #4856 from localheinz/feature/composer-normalize
+[33m3128c293[m Enhancement: Normalize composer.json
+[33med7b78de[m Typo
+[33mb88d8fd1[m formatting
+[33m7d16a052[m Fixed comment alignment
+[33m546720c0[m Pick `log_channel` from environment variable
+[33m822dcafe[m Add `log_channel` configuration option
+[33mde1f472d[m Merge branch 'master' of github.com:laravel/laravel
+[33m63a40391[m add asset url configuration option
+[33ma2c8df54[m Merge pull request #4854 from aryehraber/patch-1
+[33m52cedb64[m Clean up
+[33mdc3e768d[m Merge pull request #4853 from aryehraber/patch-2
+[33m7003366e[m Remove lodash dependency
+[33m7634bc6a[m add sponsor
+[33mc09519f5[m[33m ([m[1;33mtag: [m[1;33mv5.7.13[m[33m)[m formatting
+[33mc2359fe1[m wip
+[33mfa2af393[m compile assets
+[33mab8f3f37[m update example
+[33m990d58c7[m uncomment
+[33m05acbad5[m formatting
+[33m4dadb930[m Auto register Vue components
+[33m5d7936ee[m Merge pull request #4841 from narwy/patch-1
+[33m346a1dbd[m [ALL] gitignore for NetBeans IDE
+[33m122e99c1[m Merge pull request #4836 from laurencei/laurencei-patch-1
+[33m79e8ff42[m Merge pull request #4838 from dakira/fk-support
+[33m5f7decff[m introduce sqlite foreign_key_constraints config option
+[33m8c4293d2[m Merge pull request #4837 from bbashy/patch-1
+[33m4525f36c[m use env value for redis queue name
+[33mcff8c528[m Update validation.php
+[33m51c0f51a[m Merge pull request #4834 from clemir/uuid-validation
+[33mc96995fb[m Add message for UUID validation rule
+[33m6ee6f642[m Merge pull request #4833 from DojoGeekRA/feature/phpunit.xml
+[33mc40701e3[m Sort phpunit environment variables alphabetically
+[33mf9cf7ff1[m Merge pull request #4832 from daniel-banciulea/master
+[33m4202ec97[m fix running mix tasks error
+[33m4c63c840[m Merge pull request #4831 from michaelmano/master
+[33mfe38ac2b[m Update vue version to 2.5.17
+[33m39562b45[m Merge pull request #4830 from cyberhicham/master
+[33m2a6f228b[m Removing double arrow alignments
+[33m05e54193[m Merge pull request #4820 from brainmaniac/patch-1
+[33mc0890674[m Merge pull request #4822 from borisdamevin/patch-2
+[33m59bdc8cd[m Fix bad font size render on link
+[33m3671ad39[m changed syntax for validation
+[33m56b8c010[m Merge pull request #4814 from TBlindaruk/added-default-401-image
+[33m70f17679[m [5.8] Added default 401.svg
+[33m9ac61ced[m [5.7] Added changelog for v5.7.0  - fixed mistake;
+[33m545a02fc[m [5.7.0] Added changelog for v5.7.0
+[33mb96f7062[m [5.6.33] Added changelog for v5.6.33
+[33m7cca81b3[m [5.6.21] Added changelog for v5.6.21
+[33mb637ee30[m Merge pull request #4805 from driesvints/fix-api-redirect
+[33m6f3aa7a4[m Don't redirect for api calls
+[33mc9e612f5[m Merge pull request #4803 from driesvints/cashier-add-verify-webhook-config-values
+[33m56825055[m Add new Stripe webhook config values
+[33me830a3af[m Merge pull request #4797 from connectkushal/patch-2
+[33m9db658d6[m Update UserFactory password in line with #4794
