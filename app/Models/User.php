@@ -3,9 +3,12 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+
+
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Types\Model\Comments;
 
 class User extends Authenticatable
 {
@@ -18,7 +21,7 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'full_name',
         'email',
         'password',
     ];
@@ -44,5 +47,23 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    //relacion de 1 a 1  inversa (user- perfile)
+    public function profile()
+    {
+        return $this->hasOne(Profile::class);
+    }
+
+    //relacion de 1 a muchos   (user - article)
+    public function article()
+    {
+        return $this->hasMany(Article::class);
+    }
+
+    //relacion de 1 a muchos   (user - Comments)
+     public function comments()
+    {
+        return $this->hasMany(Comments::class);
     }
 }
