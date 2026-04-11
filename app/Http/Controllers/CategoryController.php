@@ -29,7 +29,7 @@ class CategoryController extends Controller
     public function create()
     {
         //redirije al formulario
-        return view('admin.Categories.create');
+        return view('admin.categories.create');
     }
 
     /**
@@ -42,7 +42,7 @@ class CategoryController extends Controller
 
         //validamos si hay un archivo 
         if ($request->hasFile('imagen')) {
-            $Cate['imagen'] = $request->file('Imagen')->store('categories');
+            $Cate['imagen'] = $request->file('imagen')->store('categories');
 
             //guardar informacion
             Category::create($Cate);
@@ -80,7 +80,7 @@ class CategoryController extends Controller
         $category->update([
             'name'        => $request->name,
             'slug'         => $request->slug,
-            'image'        => $request->image,
+            'imagen'        => $request->imagen,
             'is_featured'  => $request->is_featured,
         ]);
 

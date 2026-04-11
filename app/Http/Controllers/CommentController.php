@@ -25,7 +25,7 @@ class CommentController extends Controller
                 'comments.value',
                 'comments.description',
                 'articles.title',
-                'user.full_name'
+                'users.full_name'
             )
             ->where('articles.user_id', '=', Auth::user()->id)
             ->orderBy('articles.id', 'desc')

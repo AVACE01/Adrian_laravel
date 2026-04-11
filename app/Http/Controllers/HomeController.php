@@ -49,12 +49,12 @@ class HomeController extends Controller
         $Cate = Category::where('status', '1')
             ->simplePaginate(20); #y solo muestra 10 en la pagina principal
 
-        $Cate = Category::where([
+        $navbar = Category::where([
             #aqui ponemos varias condiciones
             ['status', '1'], #que sea publico
             ['is_featured', '1'] #que sea destacado
         ])->paginate(3); #solo muestra 3 paginas
 
-        return view('home.all-categories', compact('Cate', 'articles'));
+        return view('home.all-categories', compact('Cate', 'navbar'));
     }
 }

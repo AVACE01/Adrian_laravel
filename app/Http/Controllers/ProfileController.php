@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use App\Models\Profile;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProfileRequest;
@@ -41,6 +42,16 @@ class ProfileController extends Controller
     public function show(Profile $profile)
     {
         //
+
+        $articles = Article::where([
+            ['user_id', $profile->user_id],
+
+            ['status', '1']
+
+        ])->simplePaginate(8);
+
+
+        return view('subscriber.profiles.show', compact('profile', 'articles'));
     }
 
     /**
@@ -49,7 +60,7 @@ class ProfileController extends Controller
     public function edit(Profile $profile)
     {
         //
-        return view('subscriber.profile.edit', compact('profile'));
+        return view('subscriber.profiles.edit', compact('profile'));
     }
 
     /**
@@ -75,10 +86,23 @@ class ProfileController extends Controller
         $user->full_name = $request->full_name;
 
         $user->email = $request->email;
+        
 
         //asignar foto
 
         $user->profile->photo = $photo;
+
+        //asignacion  de los compos adicionales
+
+        $user->profile->profession = $request->profession;
+
+        $user->profile->about = $request->about;
+
+        $user->profile->twitter = $request->twitter;
+
+        $user->profile->linkedin = $request->linkedin;
+
+        $user->profile->facebook = $request->facebook;
 
         //Guardar campos del usuario
 

@@ -35,7 +35,7 @@ class ArticleController extends Controller
     {
         //obtene categorias publicas
 
-        $Cate = Category::select('id', 'mane')
+        $Cate = Category::select('id', 'name')
             ->where('status', '1')
             ->get();
 
