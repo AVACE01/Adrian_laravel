@@ -21,7 +21,7 @@ class ArticleController extends Controller
         //mostrar los articulos a el admin
         //Auth sirve para traer la info del usuario identificado
         $user = Auth::user();
-        $article = Article::where('user_id', $user->id)
+        $articles = Article::where('user_id', $user->id)
             ->orderBy('id', 'desc')
             ->simplePaginate(10);
 
@@ -39,7 +39,7 @@ class ArticleController extends Controller
             ->where('status', '1')
             ->get();
 
-        return view('admin.article.create', compact('cate'));
+        return view('admin.article.create', compact('Cate'));
     }
 
     /**
@@ -86,7 +86,7 @@ class ArticleController extends Controller
         //
         $comments = $article->comments()->simplePaginate(5);
 
-        return view('subscriber.articles.show', compact('article', 'comment'));
+        return view('subscriber.articles.show', compact('article', 'comments'));
     }
 
     /**

@@ -1,0 +1,112 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Comments;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\CommentsRequest;
+use App\Models\Article;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+
+class CommentController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
+    {
+        //
+        $comments = DB::table('comments')
+            ->join('articles', 'comments.article_id', '=', 'articles.id')
+            ->join('users', 'comments.user_id', '=', 'users.id')
+            ->select(
+                'comments.value',
+                'comments.description',
+                'articles.title',
+                'user.full_name'
+            )
+            ->where('articles.user_id', '=', Auth::user()->id)
+            ->orderBy('articles.id', 'desc')
+            ->get();
+
+        return view('admin.comments.index', compact('comments'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(CommentsRequest $request)
+    {
+        //verificar si en el articulo ya existe un comentario del usuario
+        $result = Comments::where('user_id', Auth::user()->id)
+            ->where('article_id', $request->article_id)->exists();
+
+        //consulta para obtener el slug y estado del articulo comentado
+
+        $article = Article::select('status', 'slug')->find($request->article_id);
+
+        //si no existe el estdo del articulo publico,comentar.
+
+        if (!$result and $article->status == 1) {
+            Comments::create([
+                'description' => $request->description,
+                'user_id' => Auth::user()->id,
+                'article_id' => $request->article_id,
+
+            ]);
+
+            return redirect()->action([ArticleController::class, 'show'], [$article->slug]);
+        } else {
+            return redirect()->action([ArticleController::class, 'show'], [$article->slug])
+                ->with('success-error', 'solo se puede comentar una vez');
+        }
+    }
+
+    /**
+     * Display the specified resource.
+     */
+    public function show(Comments $comments)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(Comments $comments)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update(Request $request, Comments $comments)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(Comments $comments)
+    {
+
+        //eliminar un comentario
+
+        $comments->delete();
+
+        return redirect()->action([CommentController::class, 'index'], compact('comments'))
+            ->with('success-delete', 'El comentario a sido eliminado con exito');
+    }
+}
